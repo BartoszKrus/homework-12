@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-10T00:17:48.934Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="Zzcq8gTuaeEKso-U_18R" version="24.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-10T00:21:22.651Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="vZC6i2E627FAsQnpb_cF" version="24.0.4" type="github">
   <diagram name="Page-1" id="c4acf3e9-155e-7222-9cf6-157b1a14988f">
     <mxGraphModel dx="956" dy="518" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
       <root>
@@ -82,7 +82,7 @@
         <mxCell id="NBHjp8xVbYWv-o9BaZYt-63" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="NBHjp8xVbYWv-o9BaZYt-61">
           <mxGeometry y="50" width="300" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="NBHjp8xVbYWv-o9BaZYt-64" value="+ add_record(record: dict)&lt;div&gt;+ find_records(keyword: str)&lt;/div&gt;&lt;div&gt;+ find_partial_records(keyword: str)&lt;/div&gt;&lt;div&gt;+ phone_exists(name: str, phone: Phone)&lt;/div&gt;&lt;div&gt;+ __iter__()&lt;/div&gt;&lt;div&gt;+ __next__()&lt;/div&gt;&lt;div&gt;+ save_to_file(filename: str)&lt;/div&gt;&lt;div&gt;+ load_from_file(filename: str)&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="NBHjp8xVbYWv-o9BaZYt-61">
+        <mxCell id="NBHjp8xVbYWv-o9BaZYt-64" value="+ add_record(record: Record)&lt;div&gt;+ find_records(keyword: str)&lt;/div&gt;&lt;div&gt;+ find_partial_records(keyword: str)&lt;/div&gt;&lt;div&gt;+ phone_exists(name: str, phone: Phone)&lt;/div&gt;&lt;div&gt;+ __iter__()&lt;/div&gt;&lt;div&gt;+ __next__()&lt;/div&gt;&lt;div&gt;+ save_to_file(filename: str)&lt;/div&gt;&lt;div&gt;+ load_from_file(filename: str)&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="NBHjp8xVbYWv-o9BaZYt-61">
           <mxGeometry y="58" width="300" height="132" as="geometry" />
         </mxCell>
       </root>
